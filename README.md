@@ -10,7 +10,6 @@ A MATLAB-based tool to compute and visualize the Stockwell Transform (S-Transfor
 ## Files
 - `apply_stockwell.m`: Main script to apply the Stockwell Transform.
 - `stran.m`: MATLAB implementation of the Stockwell Transform.
-- `README.md`: This documentation file.
 - `instructions.txt`: Step-by-step guide for usage.
 
 ## Requirements
