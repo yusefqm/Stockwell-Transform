@@ -13,7 +13,7 @@ This repository provides a general-purpose MATLAB script for applying the **Stoc
 - Outputs a clear, high-resolution spectrogram
 - Easily customizable and extendable
 
-## Files
+## 📂 Files
 - `apply_stockwell.m`: Main script to apply the Stockwell Transform.
 - `stran.m`: MATLAB implementation of the Stockwell Transform.
 - `instructions.txt`: Step-by-step guide for usage.
