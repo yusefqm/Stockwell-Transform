@@ -1,11 +1,17 @@
-# Stockwell Transform
-A MATLAB-based tool to compute and visualize the Stockwell Transform (S-Transform) of 1D signals for time-frequency analysis. Ideal for processing network, biomedical, or engineering data.
+# 📈 Stockwell Transform Tool for MATLAB
+This repository provides a general-purpose MATLAB script for applying the **Stockwell Transform (S-Transform)** to any 1D signal. The Stockwell Transform is useful in time-frequency analysis, offering high resolution in both domains. This tool is especially helpful for analyzing signals in applications like:
 
-## Features
-- Accepts `.csv` or `.mat` files with a single signal column.
-- Automatically normalizes signal.
-- Supports custom time vector (or defaults to sample index).
-- Outputs a spectrogram using the Stockwell Transform.
+- Cyber-physical systems
+- Biomedical signal processing (e.g., EEG, EMG)
+- Network traffic analysis (e.g., IEC 61850 GOOSE messages)
+- Mechanical vibrations and audio signals
+
+## 🚀 Features
+- Fast computation of the Stockwell Transform
+- Automatically handles normalization and preprocessing
+- Works with any `.csv` or `.mat` signal file
+- Outputs a clear, high-resolution spectrogram
+- Easily customizable and extendable
 
 ## Files
 - `apply_stockwell.m`: Main script to apply the Stockwell Transform.
