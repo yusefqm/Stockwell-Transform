@@ -1,0 +1,25 @@
+STOCKWELL TRANSFORM TOOL — INSTRUCTIONS
+
+Step 1: Prepare Your Data
+- Ensure your signal is in a .csv or .mat file.
+- Your data must include a column named "Signal" (or modify the script to match your column name).
+- Optionally include a "Time" column.
+
+Step 2: Place Your Files
+- Place your signal file (e.g., signal.csv) in the same directory as apply_stockwell.m and stran.m.
+
+Step 3: Run the Script
+- Open MATLAB.
+- Navigate to the folder with the script.
+- Modify the filename in apply_stockwell.m if needed.
+- Run: `apply_stockwell`
+
+Step 4: View the Results
+- A spectrogram will be displayed showing frequency content over time.
+- Use the colorbar to interpret magnitude of frequencies.
+
+Optional:
+- Customize time axis units, window length, or N (number of samples).
+- Modify the plotting section to export figures or save outputs.
+
+Enjoy!
