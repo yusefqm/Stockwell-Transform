@@ -3,7 +3,7 @@ This repository provides a general-purpose MATLAB script for applying the **Stoc
 
 - Cyber-physical systems
 - Biomedical signal processing (e.g., EEG, EMG)
-- Network traffic analysis (e.g., IEC 61850 GOOSE messages)
+- Network traffic analysis
 - Mechanical vibrations and audio signals
 
 ## 🚀 Features
