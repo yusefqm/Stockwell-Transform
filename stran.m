@@ -2,9 +2,6 @@ function ST=stran(h)
 
 % Compute S-Transform without for loops
 
-%%% Coded by Kalyan S. Dash %%%
-%%% IIT Bhubaneswar, India %%%
-
 [~,N]=size(h); % h is a 1xN one-dimensional series
 
 nhaf=fix(N/2);
