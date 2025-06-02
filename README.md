@@ -7,13 +7,11 @@ Generic MATLAB / GNU Octave utility for computing and visualising Stockwell s
 - Mechanical vibrations and audio signals
 
 ## 🚀 Features
-Stockwell transform — Uses any stran.m‑compatible implementation on the MATLAB path.
-Multi‑channel — Row‑wise channels, any number of samples.
-Pre‑processing — Linear detrend and optional z‑score normalisation.
-Plotting modes — Separate windows, tiled subplots, or headless (“none”).
-Event markers — Vertical lines to highlight trigger / fault times.
-Sample truncation — Limit memory footprint with MaxSamples.
-Octave support — Tested on Octave 8.4 (Linux) and MATLAB R2023b (Windows/macOS).
+- Flexible input — Works on any [channels × samples] matrix.
+- Multichannel — Handles any number of signal channels.
+- Preprocessing — Detrend + optional normalisation.
+- Event markers — Add vertical lines for key timestamps.
+- Octave compatible — Tested on Octave and MATLAB.
 
 ## 📂 Files
 - `apply_stockwell.m`: Main script to apply the Stockwell Transform.
